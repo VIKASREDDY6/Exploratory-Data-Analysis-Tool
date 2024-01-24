@@ -239,14 +239,12 @@ def main():
             st.write(cusplot)
             st.pyplot()
 
-    if st.button('See who created this!'):
-        st.subheader('Project developed by:')
-        st.info('Name: K Vikas Reddy')
-        st.info('College: SASTRA Deemed to be University')
-        st.info('Gmail:  reddyvikas995@gmail.com')
+    st.subheader('Project developed by:')
+    st.info('Name: K Vikas Reddy')
+    st.info('College: SASTRA Deemed to be University')
+    st.info('Mail:  vikasreddy6446@gmail.com')
 
-    if st.button('Thanks'):
-        st.balloons()
+    
     st.text('')
     st.text('')
     st.warning('Please report bugs if any and suggest any new features')
